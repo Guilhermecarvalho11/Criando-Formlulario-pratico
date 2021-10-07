@@ -25,12 +25,13 @@ input button {
     justify-content: center;
     align-items: center;
 }
-input:invalid {
+
+.error {
     border: 2px solid red
 }
 
-input:valid {
-    border: 2px solid aquamarine
+.success{
+    border: 2px solid rgb(32, 10, 231);
 }
 
 #form-user input {
